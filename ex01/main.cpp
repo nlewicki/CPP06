@@ -6,11 +6,13 @@
 /*   By: nlewicki <nlewicki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/13 13:28:29 by nlewicki          #+#    #+#             */
-/*   Updated: 2025/03/13 13:28:37 by nlewicki         ###   ########.fr       */
+/*   Updated: 2025/06/23 11:49:39 by nlewicki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Serializer.hpp"
+
+// serialization and deserialization of a Data structure (converting a pointer to uintptr_t and back)
 
 int main(void)
 {

@@ -6,7 +6,7 @@
 /*   By: nlewicki <nlewicki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/14 12:02:14 by nlewicki          #+#    #+#             */
-/*   Updated: 2025/03/14 12:03:55 by nlewicki         ###   ########.fr       */
+/*   Updated: 2025/06/23 11:49:09 by nlewicki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@
 #include "B.hpp"
 #include "C.hpp"
 #include <iostream>
+
+// live time type polymorphism (type checking at runtime)
 
 int main(void)
 {
