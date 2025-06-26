@@ -6,7 +6,7 @@
 /*   By: nlewicki <nlewicki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/13 11:38:11 by nlewicki          #+#    #+#             */
-/*   Updated: 2025/06/23 11:10:56 by nlewicki         ###   ########.fr       */
+/*   Updated: 2025/06/26 11:33:05 by nlewicki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -224,7 +224,6 @@ void ScalarConverter::convert(const std::string &str)
 				long long temp = std::stoll(str);
 				if (temp > INT_MAX || temp < INT_MIN)
 				{
-					// Handle integer overflow - int is impossible
 					std::cout << "char: impossible" << std::endl;
 					std::cout << "int: impossible" << std::endl;
 					std::cout << "float: impossible" << std::endl;
